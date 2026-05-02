@@ -1,0 +1,96 @@
+```{r}
+# Load required packages
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(readr)
+
+# ==========================================
+# 1. DATA IMPORT & CLEANING
+# ==========================================
+# Load the CSV file. skip = 7 bypasses Eurostat's metadata headers.
+df <- GDP_per_capita_by_NUTS_2_2007_2020
+
+# Clean the dataframe structure
+df_clean <- df %>%
+  # Keep only the 'TIME' column (Region names) and the actual Year columns (2007-2020)
+  # This automatically drops the empty 'Unnamed' columns in the dataset
+  select(Region = TIME, matches("^20[0-9]{2}$")) %>%
+  # Remove the first row which just contains the subtitle "GEO (Labels)"
+  slice(-1) %>%
+  # Convert Eurostat's ":" missing value markers to NA, and cast to numeric
+  mutate(across(-Region, ~ suppressWarnings(as.numeric(na_if(.x, ":")))))
+
+# Reshape the data from Wide to Long format for analysis
+df_long <- df_clean %>%
+  pivot_longer(
+    cols = -Region,
+    names_to = "Year",
+    values_to = "GDP_Relative"
+  ) %>%
+  mutate(
+    Year = as.numeric(Year),
+    # Define the Treatment variable based on the strict 75% cutoff rule
+    Treatment = ifelse(GDP_Relative < 75, 1, 0),
+    Treatment_Status = ifelse(Treatment == 1, "Treated (GDP < 75%)", "Control (GDP >= 75%)")
+  ) %>%
+  # Filter out rows with NA values and drop EU-wide macro-aggregates
+  filter(!is.na(GDP_Relative),
+         !grepl("European Union", Region))
+
+# ==========================================
+# 2. SUMMARY STATISTICS (EVIDENCE OF VARIATION)
+# ==========================================
+# This table provides evidence that there are sufficient observations 
+# in both the treatment and control groups to run an RDD.
+
+cat("--- Summary Statistics: Treatment vs. Control Regions (2007-2020) ---\n")
+summary_table <- df_long %>%
+  group_by(Treatment_Status) %>%
+  summarise(
+    `Total Observations` = n(),
+    `Mean GDP Relative` = round(mean(GDP_Relative), 2),
+    `Median GDP Relative` = median(GDP_Relative),
+    `Min GDP` = min(GDP_Relative),
+    `Max GDP` = max(GDP_Relative)
+  )
+
+print(as.data.frame(summary_table))
+
+# ==========================================
+# 3. PRELIMINARY RDD DISTRIBUTION PLOT
+# ==========================================
+# Visualizing the distribution of the forcing variable (GDP) across regions
+
+rdd_forcing_plot <- ggplot(df_long, aes(x = GDP_Relative, fill = Treatment_Status)) +
+  geom_histogram(binwidth = 4, color = "black", alpha = 0.85) +
+  # Add the critical 75% RDD cutoff line
+  geom_vline(xintercept = 75, color = "#D55E00", linetype = "dashed", linewidth = 1.2) +
+  scale_fill_manual(
+    # Using distinct colors for clarity
+    values = c("Treated (GDP < 75%)" = "#E69F00", "Control (GDP >= 75%)" = "#0072B2"),
+    name = "Funding Status"
+  ) +
+  labs(
+    title = "Distribution of Regional GDP per Capita (2007-2020)",
+    subtitle = "Evaluating density variation around the 75% cutoff for EU Structural Funds Eligibility",
+    x = "Relative GDP per Capita (EU Average = 100%)",
+    y = "Number of Region-Year Observations",
+    caption = "Source: Eurostat | Red dashed line represents the RDD cutoff threshold."
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    plot.title = element_text(face = "bold", size = 14),
+    plot.subtitle = element_text(size = 11, color = "gray30"),
+    legend.position = "bottom",
+    axis.title = element_text(face = "bold"),
+    panel.grid.minor = element_blank()
+  )
+
+# Display the plot
+print(rdd_forcing_plot)
+
+# Save the high-quality image to embed in presentation slides
+# ggsave("forcing_variable_distribution.png", plot = rdd_forcing_plot, width = 8, height = 5, dpi = 300)
+```
+
