@@ -1,0 +1,354 @@
+nuts2,region_name,unemployment_c1,unemployment_c2
+AT11,Burgenland,4.933333333,5.1
+AT12,Niederösterreich,4,4.4
+AT13,Wien,7.066666667,9.666666667
+AT21,Kärnten,4.533333333,4.733333333
+AT22,Steiermark,4.866666667,4.3
+AT31,Oberösterreich,3.633333333,3.833333333
+AT32,Salzburg,2.833333333,3.533333333
+AT33,Tirol,2.766666667,3.366666667
+AT34,Vorarlberg,2.8,4.866666667
+BE10,Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest,14.6,17.03333333
+BE21,Prov. Antwerpen,4.466666667,5.633333333
+BE22,Prov. Limburg (BE),4.366666667,6.2
+BE23,Prov. Oost-Vlaanderen,4.1,4.733333333
+BE24,Prov. Vlaams-Brabant,3.566666667,4
+BE25,Prov. West-Vlaanderen,3.133333333,3.966666667
+BE31,Prov. Brabant wallon,6.866666667,7.866666667
+BE32,Prov. Hainaut,11.13333333,13.73333333
+BE33,Prov. Liège,8.866666667,11.46666667
+BE34,Prov. Luxembourg (BE),5.366666667,7.5
+BE35,Prov. Namur,8.966666667,9.833333333
+BG31,Severozapaden,,10.86666667
+BG32,Severen tsentralen,,12.23333333
+BG33,Severoiztochen,,11.3
+BG34,Yugoiztochen,,7.633333333
+BG41,Yugozapaden,13.4,6.033333333
+BG42,Yuzhen tsentralen,,8.266666667
+CH01,Région lémanique,3.95,5.5
+CH02,Espace Mittelland,2.1,3.966666667
+CH03,Nordwestschweiz,2.4,3.766666667
+CH04,Zürich,3.3,3.833333333
+CH05,Ostschweiz,2.2,3.4
+CH06,Zentralschweiz,2,2.766666667
+CH07,Ticino,3.05,5.466666667
+CY00,Kýpros,4.1,4.6
+CZ01,Praha,3.733333333,2.9
+CZ02,Střední Čechy,6.333333333,4.4
+CZ03,Jihozápad,5.333333333,4.5
+CZ04,Severozápad,12.66666667,11.93333333
+CZ05,Severovýchod,5.9,5.5
+CZ06,Jihovýchod,7.033333333,6.666666667
+CZ07,Střední Morava,9.566666667,7.8
+CZ08,Moravskoslezsko,13.9,11.46666667
+DE11,Stuttgart,3.9,6.3
+DE12,Karlsruhe,4.633333333,6.766666667
+DE13,Freiburg,4.133333333,5.4
+DE14,Tübingen,3.666666667,5.766666667
+DE21,Oberbayern,3.066666667,5.2
+DE22,Niederbayern,3.833333333,6.033333333
+DE23,Oberpfalz,4.8,6.233333333
+DE24,Oberfranken,5.766666667,9.2
+DE25,Mittelfranken,5.3,7.766666667
+DE26,Unterfranken,4.7,6.8
+DE27,Schwaben,3.866666667,5.966666667
+DE30,Berlin,15.03333333,18.16666667
+DE40,Brandenburg,16.76666667,16.2
+DE50,Bremen,9.566666667,14.33333333
+DE60,Hamburg,7.666666667,9.8
+DE71,Darmstadt,5.266666667,7.8
+DE72,Gießen,5.766666667,8.266666667
+DE73,Kassel,7.1,8.6
+DE80,Mecklenburg-Vorpommern,18,19.36666667
+DE91,Braunschweig,8.166666667,10.2
+DE92,Hannover,7.066666667,9.8
+DE93,Lüneburg,6.133333333,8.7
+DE94,Weser-Ems,5.8,8.9
+DEA1,Düsseldorf,6.7,9.7
+DEA2,Köln,6,8.766666667
+DEA3,Münster,5.966666667,8.633333333
+DEA4,Detmold,6.3,9.433333333
+DEA5,Arnsberg,7.566666667,11.03333333
+DEB1,Koblenz,5.7,7.6
+DEB2,Trier,4.7,6.3
+DEB3,Rheinhessen-Pfalz,5.9,7.966666667
+Dec-00,Saarland,6.933333333,9.2
+DED2,Dresden,16.9,16
+DED4,Chemnitz,,16.13333333
+DED5,Leipzig,,18.46666667
+DEE0,Sachsen-Anhalt,19.76666667,17.96666667
+DEF0,Schleswig-Holstein,6.833333333,9.133333333
+DEG0,Thüringen,14.16666667,15.56666667
+DK01,Hovedstaden,,4.3
+DK02,Sjælland,,3.6
+DK03,Syddanmark,,3.5
+DK04,Midtjylland,,3.3
+DK05,Nordjylland,,4.4
+EE00,Eesti,12.16666667,6.166666667
+EL30,Attiki,10.7,8.466666667
+EL41,Voreio Aigaio,7.933333333,9.466666667
+EL42,Notio Aigaio,12.13333333,9.3
+EL43,Kriti,6.833333333,6.633333333
+EL51,"Anatoliki Makedonia, Thraki",9.266666667,10.96666667
+EL52,Kentriki Makedonia,10.9,9.933333333
+EL53,Dytiki Makedonia,15,14.8
+EL54,Ipeiros,11.73333333,10.43333333
+EL61,Thessalia,12.03333333,8.5
+EL62,Ionia Nisia,6.6,9.633333333
+EL63,Dytiki Elláda,10.56666667,10.1
+EL64,Sterea Elláda,12.8,9.866666667
+EL65,Peloponnisos,8.5,7.866666667
+ES11,Galicia,12.73333333,8.633333333
+ES12,Principado de Asturias,11.93333333,9.2
+ES13,Cantabria,10.36666667,7
+ES21,País Vasco,10.23333333,6.933333333
+ES22,Comunidad Foral de Navarra,4.633333333,5.266666667
+ES23,La Rioja,6.6,6.1
+ES24,Aragón,5.966666667,5.566666667
+ES30,Comunidad de Madrid,8.7,6.433333333
+ES41,Castilla y León,11.36666667,8
+ES42,Castilla-La Mancha,10.36666667,8.566666667
+ES43,Extremadura,18.83333333,14
+ES51,Cataluña,8.9,6.633333333
+ES52,Comunitat Valenciana,10.76666667,8.633333333
+ES53,Illes Balears,6,6.966666667
+ES61,Andalucía,20.3,13.06666667
+ES62,Región de Murcia,10.66666667,7.8
+ES63,Ciudad de Ceuta,26,20.63333333
+ES64,Ciudad de Melilla,21.2,15.36666667
+ES70,Canarias,11.86666667,11.26666667
+FI19,Länsi-Suomi,11.03333333,7.7
+FI1B,Helsinki-Uusimaa,,5.5
+FI1C,Etelä-Suomi,,7.5
+FI1D,Pohjois- ja Itä-Suomi,,10.7
+FI20,Åland,,
+FR10,Ile de France,8.1,8.3
+FRB0,Centre — Val de Loire,8.033333333,6.533333333
+FRC1,Bourgogne,7.766666667,7.433333333
+FRC2,Franche-Comté,7.1,7.266666667
+FRD1,Basse-Normandie,7.766666667,6.833333333
+FRD2,Haute-Normandie,10.03333333,8.366666667
+FRE1,Nord-Pas de Calais,14.7,12.03333333
+FRE2,Picardie,9.8,10.1
+FRF1,Alsace,6.433333333,6.4
+FRF2,Champagne-Ardenne,10.23333333,8.166666667
+FRF3,Lorraine,8.433333333,8.966666667
+FRG0,Pays de la Loire,8.333333333,6.666666667
+FRH0,Bretagne,6.8,6.9
+FRI1,Aquitaine,10.2,7.233333333
+FRI2,Limousin,7.233333333,6.3
+FRI3,Poitou-Charentes,8.3,7.533333333
+FRJ1,Languedoc-Roussillon,14.43333333,10.86666667
+FRJ2,Midi-Pyrénées,9,7.5
+FRK1,Auvergne,8.2,7.566666667
+FRK2,Rhône-Alpes,7.4,7.133333333
+FRL0,Provence-Alpes-Côte d’Azur,12.7,10.03333333
+FRM0,Corse,22.8,10.66666667
+FRY1,Guadeloupe,25.6,25.13333333
+FRY2,Martinique,23.45,21.3
+FRY3,Guyane,26.25,24.46666667
+FRY4,La Réunion,30.4,27.5
+FRY5,Mayotte,,
+HR02,Panonska Hrvatska,,
+HR03,Jadranska Hrvatska,,9.3
+HR04,Kontinentalna Hrvatska (NUTS 2016),,9.6
+HR05,Grad Zagreb,,
+HR06,Sjeverna Hrvatska,,
+HU10,Közép-Magyarország (NUTS 2013),4.6,5
+HU11,Budapest,,
+HU12,Pest,,
+HU21,Közép-Dunántúl,4.666666667,5.733333333
+HU22,Nyugat-Dunántúl,3.966666667,5.6
+HU23,Dél-Dunántúl,7.766666667,9.3
+HU31,Észak-Magyarország,8.766666667,11.36666667
+HU32,Észak-Alföld,8.6,10.2
+HU33,Dél-Alföld,5.466666667,8.033333333
+IE01,"Border, Midland and Western (NUTS 2013)",5.2,4.7
+IE02,Southern and Eastern (NUTS 2013),3.7,4.533333333
+IE04,Northern and Western,,
+IE05,Southern,,
+IE06,Eastern and Midland,,
+IS00,Ísland,2.266666667,2.533333333
+ITC1,Piemonte,5.8,4.333333333
+ITC2,Valle d’Aosta/Vallée d’Aoste,,3.1
+ITC3,Liguria,7.166666667,5.133333333
+ITC4,Lombardia,4.066666667,3.733333333
+ITF1,Abruzzo,5.9,6.9
+ITF2,Molise,13.1,9.3
+ITF3,Campania,22.3,13
+ITF4,Puglia,15.13333333,12.76666667
+ITF5,Basilicata,16.2,10.76666667
+ITF6,Calabria,26,12.73333333
+ITG1,Sicilia,21.86666667,14.13333333
+ITG2,Sardegna,19.46666667,11.13333333
+ITH1,Provincia Autonoma di Bolzano/Bozen,2.25,2.666666667
+ITH2,Provincia Autonoma di Trento,3.8,3.2
+ITH3,Veneto,3.866666667,3.933333333
+ITH4,Friuli-Venezia Giulia,4.033333333,3.7
+ITH5,Emilia-Romagna,,3.4
+ITI1,Toscana,5.6,4.9
+ITI2,Umbria,5.7,5.233333333
+ITI3,Marche,,4.533333333
+ITI4,Lazio,10.33333333,7.2
+LT00,Lietuva (NUTS 2013),15.3,6.133333333
+LT01,Sostinės regionas,,
+LT02,Vidurio ir vakarų Lietuvos regionas,,
+LU00,Luxembourg,2.233333333,4.433333333
+LV00,Latvija,13.96666667,7.7
+ME00,Crna Gora,,
+MK00,Severna Makedonija,,35.55
+MT00,Malta,6.766666667,6.733333333
+NL11,Groningen,3.933333333,7.766666667
+NL12,Friesland (NL),3.333333333,5
+NL13,Drenthe,3.1,5.866666667
+NL21,Overijssel,2.633333333,5.2
+NL22,Gelderland,2.3,4.3
+NL23,Flevoland,3.233333333,6.4
+NL31,Utrecht (NUTS 2021),1.866666667,4.333333333
+NL32,Noord-Holland,2.333333333,4.966666667
+NL33,Zuid-Holland (NUTS 2021),2.433333333,5.366666667
+NL34,Zeeland,2.733333333,3.7
+NL35,Utrecht,,
+NL36,Zuid-Holland,,
+NL41,Noord-Brabant,2.133333333,4.233333333
+NL42,Limburg (NL),2.533333333,5.933333333
+NO01,Oslo og Akershus (statistical region 2016),3.133333333,3.533333333
+NO02,Innlandet,3.333333333,3.166666667
+NO03,Sør-Østlandet (statistical region 2016),3.766666667,3.866666667
+NO04,Agder og Rogaland (statistical region 2016),4.033333333,2.966666667
+NO05,Vestlandet (statistical region 2016),3.5,3.066666667
+NO06,Trøndelag,4.166666667,3.4
+NO07,Nord-Norge,4.966666667,3.866666667
+NO08,Oslo og Viken,,
+NO09,Agder og Sør-Østlandet,,
+NO0A,Vestlandet,,
+Observation flags:,,,
+PL21,Małopolskie,13.46666667,12.16666667
+PL22,Śląskie,19.86666667,13.76666667
+PL41,Wielkopolskie,17.3,12.73333333
+PL42,Zachodniopomorskie,22.86666667,17.13333333
+PL43,Lubuskie,23.53333333,14.33333333
+PL51,Dolnośląskie,24,17.63333333
+PL52,Opolskie,18.26666667,13.26666667
+PL61,Kujawsko-pomorskie,20.76666667,15.83333333
+PL62,Warmińsko-mazurskie,24,15.63333333
+PL63,Pomorskie,18.63333333,14.06666667
+PL71,Łódzkie,18.7,13.36666667
+PL72,Świętokrzyskie,18.66666667,15.56666667
+PL81,Lubelskie,15,12.23333333
+PL82,Podkarpackie,16.8,13.43333333
+PL84,Podlaskie,16,11.63333333
+PL91,Warszawski stołeczny,,
+PL92,Mazowiecki regionalny,,
+PT11,Norte,3.933333333,9.133333333
+PT15,Algarve,4.5,6.2
+PT16,Centro (PT) (NUTS 2021),2.566666667,5.566666667
+PT17,Área Metropolitana de Lisboa (NUTS 2021),5.6,8.733333333
+PT18,Alentejo (NUTS 2021),6.1,8.933333333
+PT19,Centro (PT),,
+PT1A,Grande Lisboa,,
+PT1B,Península de Setúbal,,
+PT1C,Alentejo,,
+PT1D,Oeste e Vale do Tejo,,
+PT20,Região Autónoma dos Açores,,4.3
+PT30,Região Autónoma da Madeira,,5.566666667
+RO11,Nord-Vest,7.3,5.366666667
+RO12,Centru,7.3,8.633333333
+RO21,Nord-Est,6.666666667,5.533333333
+RO22,Sud-Est,9.466666667,8.466666667
+RO31,Sud-Muntenia,7.933333333,8.933333333
+RO32,Bucureşti-Ilfov,8.3,5.266666667
+RO41,Sud-Vest Oltenia,5.6,6.833333333
+RO42,Vest,6.4,6.233333333
+RS11,Beogradski region,,
+RS12,Region Vojvodine,,
+RS21,Region Sumadije i Zapadne Srbije,,
+RS22,Region Juzne i Istocne Srbije,,
+SE11,Stockholm,3.366666667,6.133333333
+SE12,Östra Mellansverige,5.333333333,7.366666667
+SE21,Småland med öarna,4.033333333,5.633333333
+SE22,Sydsverige,6.433333333,7.933333333
+SE23,Västsverige,4.7,6.5
+SE31,Norra Mellansverige,6.4,7.633333333
+SE32,Mellersta Norrland,6.666666667,7.266666667
+SE33,Övre Norrland,6.966666667,8
+SI01,Vzhodna Slovenija (NUTS 2010),6.65,6.8
+SI02,Zahodna Slovenija (NUTS 2010),4.85,4.633333333
+SI03,Vzhodna Slovenija,,
+SI04,Zahodna Slovenija,,
+SK01,Bratislavský kraj,7.966666667,4.733333333
+SK02,Západné Slovensko,17.9,10.03333333
+SK03,Stredné Slovensko,21.23333333,17.1
+SK04,Východné Slovensko,23.76666667,19.03333333
+Special value,,,
+TR10,İstanbul,,9.95
+TR21,"Tekirdağ, Edirne, Kırklareli",,6.7
+TR22,"Balıkesir, Çanakkale",,4.75
+TR31,İzmir,,9.85
+TR32,"Aydın, Denizli, Muğla",,6.75
+TR33,"Manisa, Afyonkarahisar, Kütahya, Uşak",,5.9
+TR41,"Bursa, Eskişehir, Bilecik",,7.35
+TR42,"Kocaeli, Sakarya, Düzce, Bolu, Yalova",,10.25
+TR51,Ankara,,10.95
+TR52,"Konya, Karaman",,9.15
+TR61,"Antalya, Isparta, Burdur",,6.3
+TR62,"Adana, Mersin",,13.65
+TR63,"Hatay, Kahramanmaraş, Osmaniye",,9.65
+TR71,"Kırıkkale, Aksaray, Niğde, Nevşehir, Kırşehir",,8.15
+TR72,"Kayseri, Sivas, Yozgat",,9.8
+TR81,"Zonguldak, Karabük, Bartın",,6
+TR82,"Kastamonu, Çankırı, Sinop",,3.55
+TR83,"Samsun, Tokat, Çorum, Amasya",,6.5
+TR90,"Trabzon, Ordu, Giresun, Rize, Artvin, Gümüşhane",,4.6
+TRA1,"Erzurum, Erzincan, Bayburt",,4.1
+TRA2,"Ağrı, Kars, Iğdır, Ardahan",,3.9
+TRB1,"Malatya, Elazığ, Bingöl, Tunceli",,10.65
+TRB2,"Van, Muş, Bitlis, Hakkari",,9.2
+TRC1,"Gaziantep, Adıyaman, Kilis",,14.8
+TRC2,"Şanlıurfa, Diyarbakır",,11.9
+TRC3,"Mardin, Batman, Şırnak, Siirt",,15.75
+UKC1,Tees Valley and Durham (NUTS 2021),7.666666667,5.9
+UKC2,Northumberland and Tyne and Wear (NUTS 2021),7.833333333,6.433333333
+UKD1,Cumbria (NUTS 2021),5.5,3.8
+UKD3,Greater Manchester (NUTS 2021),4.9,5.566666667
+UKD4,Lancashire (NUTS 2021),4.2,4.933333333
+UKD6,Cheshire (NUTS 2021),,3.166666667
+UKD7,Merseyside (NUTS 2021),,6.533333333
+UKE1,East Yorkshire and Northern Lincolnshire (NUTS 2021),6.333333333,5.833333333
+UKE2,North Yorkshire (NUTS 2021),4.45,3.466666667
+UKE3,South Yorkshire (NUTS 2021),5.933333333,6.2
+UKE4,West Yorkshire (NUTS 2021),5.2,5.233333333
+UKF1,Derbyshire and Nottinghamshire (NUTS 2021),5.266666667,5.2
+UKF2,"Leicestershire, Rutland and Northamptonshire (NUTS 2021)",4,4.766666667
+UKF3,Lincolnshire (NUTS 2021),4.533333333,4.6
+UKG1,"Herefordshire, Worcestershire and Warwickshire (NUTS 2021)",3.4,3.433333333
+UKG2,Shropshire and Staffordshire (NUTS 2021),4.266666667,4.4
+UKG3,West Midlands (NUTS 2021),7.466666667,7.466666667
+UKH1,East Anglia (NUTS 2021),3.766666667,4.4
+UKH2,Bedfordshire and Hertfordshire (NUTS 2021),3.166666667,4.433333333
+UKH3,Essex (NUTS 2021),3.533333333,4.5
+UKI1,Inner London (NUTS 2010),8.733333333,8.333333333
+UKI2,Outer London (NUTS 2010),5.1,6.5
+UKI3,Inner London - West (NUTS 2021),,
+UKI4,Inner London - East (NUTS 2021),,
+UKI5,Outer London - East and North East (NUTS 2021),,
+UKI6,Outer London - South (NUTS 2021),,
+UKI7,Outer London - West and North West (NUTS 2021),,
+UKJ1,"Berkshire, Buckinghamshire and Oxfordshire (NUTS 2021)",2.966666667,3.8
+UKJ2,"Surrey, East and West Sussex (NUTS 2021)",3.266666667,3.933333333
+UKJ3,Hampshire and Isle of Wight (NUTS 2021),3.333333333,4.266666667
+UKJ4,Kent (NUTS 2021),4.3,5.1
+UKK1,"Gloucestershire, Wiltshire and Bristol/Bath area (NUTS 2021)",3.033333333,3.4
+UKK2,Dorset and Somerset (NUTS 2021),3.466666667,3.633333333
+UKK3,Cornwall and Isles of Scilly (NUTS 2021),5.233333333,3.933333333
+UKK4,Devon (NUTS 2021),4.666666667,4.333333333
+UKL1,West Wales and The Valleys (NUTS 2021),6.133333333,5.333333333
+UKL2,East Wales (NUTS 2021),5.433333333,4.4
+UKM2,Eastern Scotland (NUTS 2013),5.6,5.2
+UKM3,South Western Scotland (NUTS 2013),8.266666667,5.8
+UKM5,North Eastern Scotland (NUTS 2021),,3.3
+UKM6,Highlands and Islands (NUTS 2021),7.233333333,3
+UKM7,Eastern Scotland (NUTS 2021),,
+UKM8,West Central Scotland (NUTS 2021),,
+UKM9,Southern Scotland (NUTS 2021),,
+UKN0,Northern Ireland (UK) (NUTS 2021),6.133333333,4.333333333
